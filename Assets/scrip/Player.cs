@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float jumpForce = 450;
+    public float jumpForce = 10;
     private Rigidbody2D _rb;
     private float _moveInputValue;
     private bool _isGrounded;
